@@ -4,7 +4,7 @@ Tool for faster parallel directories removal in Unix systems (parallel rm -rf)
 ## Installation
 
 ```bash
-git clone git+https://github.com/boomb0om/parallel-rm-rf
+pip install git+https://github.com/boomb0om/parallel-rm-rf.git
 ```
 
 ## Usage
