@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "hatchling >= 1.13.0",
+    "wheel",
+    "Cython~=3.0.5"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = 'parallel_rm_rf'
+dynamic = [
+  'version'
+]
+
+readme = 'README.md'
+requires-python = '>=3.9'
+dependencies = []
+
+[tool.hatch.version]
+path = "parallel_rm_rf/__init__.py"
